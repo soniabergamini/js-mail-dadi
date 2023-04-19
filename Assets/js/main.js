@@ -45,4 +45,4 @@ document.getElementById('resetEmail').addEventListener("click",
     }
 );
 
-// Correzione Esercizio: In alternativa è possibile creare una variabile autenticazione a valore false fuori dal ciclo, poi in caso di mail autorizzata far diventare la mail true e poi, fuori dal ciclo, stampare il risultato basandosi sul valore di questa variabile.
+// Correzione Esercizio: In alternativa è possibile creare una variabile autenticazione a valore false fuori dal ciclo, poi in caso di mail autorizzata far diventare quella variabile true e poi, fuori dal ciclo, stampare il risultato basandosi sul valore della variabile.
