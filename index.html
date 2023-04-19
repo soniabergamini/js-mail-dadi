@@ -6,13 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./Assets/img/favicon.ico">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Rubik+Microbe&display=swap" rel="stylesheet">
     <!-- Style CSS -->
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>MAIL</title>
 </head>
 <body>
-    <main>
-
+    <main class="dFlex justyCenter alignCenter">
+        <form action="#" class="border">
+            <!-- Email -->
+            <div class="pad1em dFlex justyCenter alignCenter">
+                <label for="formEmail" class="pad1em">Inserisci la tua email</label>
+                <input type="email" id="formEmail" class="dBlock cPointer textAlignCent" placeholder="test@test.com" required>
+            </div>
+            <strong id="userAutentication" class="dNone">Utente Non Autorizzato</strong>
+            <!-- Pulsante Invio -->
+            <div class="pad1em">
+                <button type="submit" id="checkEmail" class="cPointer">Invia</button>
+                <button type="reset" id="resetEmail" class="cPointer">Cancella</button>
+            </div>
+        </form>
     </main>
     <!-- Script JS -->
     <script lang="javascript" src="./Assets/js/main.js"></script>
