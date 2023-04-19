@@ -11,6 +11,9 @@ document.getElementById('checkEmail').addEventListener("click",
         // Variabile: Email Inserita dall'utente
         let userInputEmail = document.getElementById('formEmail').value;
 
+        // Autenticazione: impostata di base su 'Non Autorizzato' ad ogni invio
+        autentication.innerText = "Utente Non Autorizzato!";
+
         // console.log(`User Input Email: ${userInputEmail}`);
 
         // Ciclo: Controlla la mail dell'utente con la lista di email permesse
